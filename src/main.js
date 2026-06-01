@@ -1,3 +1,5 @@
+window.global = window;
+
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.css';
 import iziToast from 'izitoast';
