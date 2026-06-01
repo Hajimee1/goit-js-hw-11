@@ -44,7 +44,6 @@ btn.addEventListener('click', e => {
       yazdır(data.hits);
     })
     .catch(err => {
-      console.log(err);
       iziToast.error({
         message: err.message,
         position: 'topRight',
@@ -106,4 +105,3 @@ function yazdır(data) {
   gallery.innerHTML = markup;
   initLightbox();
 }
-console.log(SimpleLightbox);
