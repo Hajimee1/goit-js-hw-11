@@ -49,7 +49,7 @@ btn.addEventListener('click', e => {
         message: err.message,
         position: 'topRight',
         timeout: 4000,
-        iconUrl: './img/izitoast.png',
+        iconUrl: '/img/izitoast.png',
         class: 'custom-toast',
       });
     })
